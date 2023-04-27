@@ -7,7 +7,7 @@ const Home = () => {
     <Container
       id="home"
       classs="flex justify-center item-center flex-col h-screen bg-cover bg-no-repeat bg-left-top max-md:bg-right-top"
-      style={{ backhroundImage: "url(bg.png)" }}
+      img={"bg.png"}
     >
       <div className="w-full mx-auto flex justify-center gap-x-16 items-center max-md:flex-col max-md:gap-y-5">
         <div className="max-md:order-2 text-center">
