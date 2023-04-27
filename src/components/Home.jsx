@@ -20,7 +20,7 @@ const Home = () => {
           <div className="flex justify-center items-center my-2">
             <a
               className="bg-blue-600 p-2 py-2.5 text-stone-100 rounded-md text-center text-sm"
-              href="https://drive.google.com/file/d/12Z5dYXQfiNp9N81BllORqd0saE8dh-vg/view?usp=sharing"
+              href="https://drive.google.com/file/d/12Z5dYXQfiNp9N81BllORqd0saE8dh-vg/view"
               target="_blank"
               rel="noreferrer"
             >
