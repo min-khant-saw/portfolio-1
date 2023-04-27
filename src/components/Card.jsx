@@ -1,5 +1,6 @@
 import React from "react";
 import AccountTreeRoundedIcon from "@mui/icons-material/AccountTreeRounded";
+import SourceIcon from "@mui/icons-material/Source";
 
 const Card = ({ src, title, description, link }) => {
   return (
@@ -43,7 +44,7 @@ const Card = ({ src, title, description, link }) => {
           target="_blank"
           rel="noreferrer"
         >
-          Source Code
+          Source Code <SourceIcon fontSize="medium" className="ml-1" />
         </a>
       </div>
     </div>

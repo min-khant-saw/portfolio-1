@@ -44,7 +44,7 @@ const Skill = () => {
             </a>
             <a
               className="bg-white p-3 rounded shadow-md text-center transition-all duration-500 hover:bg-transparent text-lg font-medium cursor-pointer backdrop-blur-lg bgop w-full px-6"
-              onClick={() => setSkill({ count: 66, text: "TypeScript" })}
+              onClick={() => setSkill({ count: 77, text: "TypeScript" })}
             >
               TypeScript
             </a>
@@ -56,13 +56,13 @@ const Skill = () => {
             </a>
             <a
               className="bg-white p-3 rounded shadow-md text-center transition-all duration-500 hover:bg-transparent text-lg font-medium cursor-pointer backdrop-blur-lg bgop w-full px-6"
-              onClick={() => setSkill({ count: 69, text: "Node Js" })}
+              onClick={() => setSkill({ count: 70, text: "Node Js" })}
             >
               Node Js
             </a>
             <a
               className="bg-white p-3 rounded shadow-md text-center transition-all duration-500 hover:bg-transparent text-lg font-medium cursor-pointer backdrop-blur-lg bgop w-full px-6"
-              onClick={() => setSkill({ count: 65, text: "PHP" })}
+              onClick={() => setSkill({ count: 67, text: "PHP" })}
             >
               PHP
             </a>
@@ -74,13 +74,13 @@ const Skill = () => {
             </a>
             <a
               className="bg-white p-3 rounded shadow-md text-center transition-all duration-500 hover:bg-transparent text-lg font-medium cursor-pointer backdrop-blur-lg bgop w-full px-6"
-              onClick={() => setSkill({ count: 60, text: "Git" })}
+              onClick={() => setSkill({ count: 70, text: "Git" })}
             >
               Git
             </a>
             <a
               className="bg-white p-3 rounded shadow-md text-center transition-all duration-500 hover:bg-transparent text-lg font-medium cursor-pointer backdrop-blur-lg bgop w-full px-6"
-              onClick={() => setSkill({ count: 70, text: "GitHub" })}
+              onClick={() => setSkill({ count: 80, text: "GitHub" })}
             >
               GitHub
             </a>
