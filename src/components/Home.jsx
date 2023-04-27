@@ -20,7 +20,9 @@ const Home = () => {
           <div className="flex justify-center items-center my-2">
             <a
               className="bg-blue-600 p-2 py-2.5 text-stone-100 rounded-md text-center text-sm"
-              href="https://export-download.canva.com/437263a3-427e-4fae-a5be-098c8b2bb117/0-3367143822.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAJHKNGJLC2J7OGJ6Q%2F20230425%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20230425T000933Z&amp;X-Amz-Expires=19094&amp;X-Amz-Signature=846164db121af20e89d655a4b4a52047f47c82b9771be79bc5abb481cafb4993&amp;X-Amz-SignedHeaders=host&amp;response-content-disposition=attachment%3B%20filename%2A%3DUTF-8%27%27Creative%2520Resume%2520Web%2520Developer.pdf&amp;response-expires=Tue%2C%2025%20Apr%202023%2005%3A27%3A47%20GMT"
+              href="https://drive.google.com/file/d/12Z5dYXQfiNp9N81BllORqd0saE8dh-vg/view?usp=sharing"
+              target="_blank"
+              rel="noreferrer"
             >
               Download Resume
             </a>
