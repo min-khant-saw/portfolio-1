@@ -1,13 +1,13 @@
-import React from "react";
-import Container from "./Container";
-import KeyboardArrowDownRoundedIcon from "@mui/icons-material/KeyboardArrowDownRounded";
+import React from 'react'
+import Container from './Container'
+import KeyboardArrowDownRoundedIcon from '@mui/icons-material/KeyboardArrowDownRounded'
 
 const Home = () => {
   return (
     <Container
       id="home"
       classs="flex justify-center item-center flex-col h-screen bg-cover bg-no-repeat bg-left-top max-md:bg-right-top"
-      img={"bg.png"}
+      img={'bg.png'}
     >
       <div className="w-full mx-auto flex justify-center gap-x-16 items-center max-md:flex-col max-md:gap-y-5">
         <div className="max-md:order-2 text-center">
@@ -20,7 +20,7 @@ const Home = () => {
           <div className="flex justify-center items-center my-2">
             <a
               className="bg-blue-600 p-2 py-2.5 text-stone-100 rounded-md text-center text-sm"
-              href="https://drive.google.com/file/d/12Z5dYXQfiNp9N81BllORqd0saE8dh-vg/view"
+              href="https://drive.google.com/file/d/1fxuiUIIH6XpJ0lpatTYRjW7T6Ja98p2h/view?usp=sharing"
               target="_blank"
               rel="noreferrer"
             >
@@ -44,7 +44,7 @@ const Home = () => {
         </div>
       </div>
     </Container>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
