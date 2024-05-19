@@ -1,21 +1,22 @@
-import React, { useEffect, useState } from "react";
-import { ScaleLoader } from "react-spinners";
-import NavBar from "./components/NavBar";
-import Home from "./components/Home";
-import Hire from "./components/Hire";
-import About from "./components/About";
-import Container from "./components/Container";
-import Skill from "./components/Skill";
-import Project from "./components/Project";
-import Content from "./components/Content";
+import React, { useEffect, useState } from 'react'
+import { ScaleLoader } from 'react-spinners'
+import NavBar from './components/NavBar'
+import Home from './components/Home'
+import Hire from './components/Hire'
+import About from './components/About'
+import Container from './components/Container'
+import Skill from './components/Skill'
+import Project from './components/Project'
+import Content from './components/Content'
+import Experiences from './components/experiences'
 
 const App = () => {
-  const [isLoading, setIsLoading] = useState(true);
+  const [isLoading, setIsLoading] = useState(true)
   useEffect(() => {
     setTimeout(() => {
-      setIsLoading(false);
-    }, 3000);
-  });
+      setIsLoading(false)
+    }, 3000)
+  })
   if (isLoading) {
     return (
       <Container classs="h-screen flex justify-center items-center flex-col bg-[#E3E4FF]">
@@ -27,7 +28,7 @@ const App = () => {
           data-testid="loader"
         />
       </Container>
-    );
+    )
   }
   return (
     <div className="w-full min-h-screen bg-[#E3E4FF]">
@@ -35,13 +36,14 @@ const App = () => {
       <div className="flex justify-center flex-col gap-y-[150px]">
         <Home />
         <About />
+        <Experiences />
         <Skill />
         <Project />
         <Content />
       </div>
       <Hire />
     </div>
-  );
-};
+  )
+}
 
-export default App;
+export default App

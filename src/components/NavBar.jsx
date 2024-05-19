@@ -1,13 +1,14 @@
-import React, { useState } from "react";
-import Container from "./Container";
-import HomeRoundedIcon from "@mui/icons-material/HomeRounded";
-import InfoRoundedIcon from "@mui/icons-material/InfoRounded";
-import PsychologyRoundedIcon from "@mui/icons-material/PsychologyRounded";
-import AccountTreeRoundedIcon from "@mui/icons-material/AccountTreeRounded";
-import MenuRoundedIcon from "@mui/icons-material/MenuRounded";
+import React, { useState } from 'react'
+import Container from './Container'
+import HomeRoundedIcon from '@mui/icons-material/HomeRounded'
+import InfoRoundedIcon from '@mui/icons-material/InfoRounded'
+import PsychologyRoundedIcon from '@mui/icons-material/PsychologyRounded'
+import AccountTreeRoundedIcon from '@mui/icons-material/AccountTreeRounded'
+import MenuRoundedIcon from '@mui/icons-material/MenuRounded'
+import { Work } from '@mui/icons-material'
 
 const NavBar = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false)
   return (
     <Container classs="z-10 sticky top-0 left-0 max-md:flex-col flex justify-between item-center flex-row max-md:flex-col item-center gap-7 p-4 border-b bg-white bg-opacity-40 backdrop-blur-lg rounded drop-shadow-lg">
       <div className="font-[Jost] text-3xl max-md:hidden">Min</div>
@@ -31,6 +32,17 @@ const NavBar = () => {
             <div>About</div>
             <div>
               <InfoRoundedIcon fontSize="small" />
+            </div>
+          </a>
+        </div>
+        <div>
+          <a
+            href="#experiences"
+            className="text-lg text-cyan-800 font-medium flex justify-center items-center gap-x-2"
+          >
+            <div>Experiences</div>
+            <div>
+              <Work fontSize="small" />
             </div>
           </a>
         </div>
@@ -93,6 +105,17 @@ const NavBar = () => {
           </div>
           <div>
             <a
+              href="#experiences"
+              className="text-lg text-cyan-800 font-medium flex justify-center items-center gap-x-2"
+            >
+              <div>Experiences</div>
+              <div>
+                <Work fontSize="small" />
+              </div>
+            </a>
+          </div>
+          <div>
+            <a
               href="#skill"
               className="text-lg text-cyan-800 font-medium flex justify-center items-center gap-x-2"
             >
@@ -116,7 +139,7 @@ const NavBar = () => {
         </div>
       )}
     </Container>
-  );
-};
+  )
+}
 
-export default NavBar;
+export default NavBar

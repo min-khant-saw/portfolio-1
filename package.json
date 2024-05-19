@@ -17,6 +17,7 @@
     "@emotion/styled": "^11.10.6",
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.12.1",
+    "javascript-time-ago": "^1.0.33",
     "react": "^18.2.0",
     "react-circle-progress-bar": "^0.1.4",
     "react-dom": "^18.2.0",

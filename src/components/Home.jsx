@@ -14,10 +14,8 @@ const Home = () => {
           <h1 className="text-4xl font-semibold text-slate-700 max-md:text-2xl">
             I'm Min Khant Saw
           </h1>
-          <p className="text-md mt-1 text-gray-600">
-            I'm full stack web developer
-          </p>
-          <div className="flex justify-center items-center my-2">
+          <p className="mt-1 text-gray-600">Web Developer</p>
+          {/* <div className="flex justify-center items-center my-2">
             <a
               className="bg-blue-600 p-2 py-2.5 text-stone-100 rounded-md text-center text-sm"
               href="https://drive.google.com/file/d/1fxuiUIIH6XpJ0lpatTYRjW7T6Ja98p2h/view?usp=sharing"
@@ -26,7 +24,7 @@ const Home = () => {
             >
               Download Resume
             </a>
-          </div>
+          </div> */}
           <a
             href="#about"
             className="flex justify-center items-center w-full mt-2 ml-1 text-gray-800 text-xs text-center"
