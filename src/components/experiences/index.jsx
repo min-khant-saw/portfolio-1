@@ -33,7 +33,7 @@ const Experiences = () => {
         infoOne={
           <>
             At my first job, I worked at{' '}
-            <span className="font-bold">Ultimate Lifestyle</span> for 6 months.
+            <span className="font-bold">Ultimate Lifestyle</span> 6 months.
           </>
         }
         infoTwo={`This job was where I fully immersed myself in learning and tackled
